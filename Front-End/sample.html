@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>
+		CIT
+	</title>
+</head>
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	.navbar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: sticky;
+		top: 0;
+		cursor: pointer;
+	}
+
+	.background {
+		background: black;
+		background-blend-mode: darken;
+		background-size: cover;
+	}
+
+	.nav-list {
+		width: 70%;
+		display: flex;
+		align-items: center;
+	}
+
+	.logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .logo1
+    {
+        display:flex;
+		justify-content: center;
+		align-items: center;
+        padding-right:  70px;
+    }
+    .logo1 img {
+		width: 50px;
+		border-radius: 100px;
+	}
+
+	.logo img {
+		width: 180px;
+		border-radius: 50px;
+	}
+
+	.nav-list li {
+		list-style: none;
+		padding: 20px 40px;
+	}
+
+	.nav-list li a {
+		text-decoration: none;
+		color: white;
+	}
+
+	.nav-list li a:hover {
+		color: grey;
+	}
+
+	.rightnav {
+		width: 30%;
+		text-align: right;
+	}
+
+	#search {
+		padding: 5px;
+		font-size: 17px;
+		border: 2px solid grey;
+		border-radius: 9px;
+	}
+
+	.firstsection {
+		background-color: grey;
+		height: 400px;
+	}
+
+	.secondsection {
+		background-color: lightpink;
+		height: 300px;
+        padding: 25px 35px 45px;
+	}
+
+	.box-main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: black;
+		max-width: 80%;
+		margin: auto;
+		height: 80%;
+        padding: 25px 35px 45px;
+	}
+
+	.firsthalf {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.secondhalf {
+		width: 30%;
+	}
+
+	.secondhalf img {
+		width: 70%;
+		border: 4px solid white;
+		border-radius: 150px;
+		display: block;
+		margin: auto;
+	}
+
+	.text-big {
+		font-family: 'Piazzolla', serif;
+		font-weight: bold;
+		font-size: 35px;
+	}
+
+	.text-small {
+		font-size: 18px;
+	}
+
+	.btn {
+		padding: 8px 20px;
+		margin: 7px 0;
+		border: 2px solid white;
+		border-radius: 8px;
+		background: none;
+		color: white;
+		cursor: pointer;
+	}
+
+	.btn-sm {
+		padding: 6px 10px;
+		vertical-align: middle;
+	}
+
+	.section {
+		height: 400px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		max-width: 90%;
+		margin: auto;
+	}
+
+	.section-Left {
+		flex-direction: row-reverse;
+	}
+
+	.paras {
+		padding: 0px 65px;
+	}
+
+	.thumbnail img {
+		width: 250px;
+		border: 2px solid black;
+		border-radius: 26px;
+		margin-top: 19px;
+	}
+
+	.center {
+		text-align: center;
+	}
+
+	.text-footer {
+		text-align: center;
+		padding: 30px 0;
+		font-family: 'Ubuntu', sans-serif;
+		display: flex;
+		justify-content: center;
+		color: white;
+	}
+    #s{
+        text-decoration: none;
+    }
+    #s:hover
+    {
+        text-decoration: none;
+        color:bisque;
+    }
+</style>
+
+
+</style>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src="925716779s.jpg">
+			</div>
+			<li><a href="#">LOGIN</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+			<li><a href="#">ABOUT</a></li>
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="web">
+				    Where you Learn to Stay Ahead
+				</h1>
+				
+				<p class="text-small">
+					Bannari Amman Institute of Technology is an Autonomous, Self-financing Engineering College, Approved by AICTE, New Delhi and Affiliated to Anna University, Chennai. Nestled on the banks of The River Bhavani, BIT campus provides environment for learning in harmony with nature, away from the odds of the city life. The spacious and the earth hugging buildings punctuated with landscaped courtyards and pathways are designed to emphasise the business ethics and or characteristics of an excellent centre for learning. The Campus hosts well planned academic blocks, computer centres, lecture halls, libraries, laboratories, conference halls, staff quarters, hostels and students' centres. The Campus also houses a co-operative store, ATM (Axis, SBI and KVB) and a clinic to attend to the general health of the students and staff.
+				</p>
+            </div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+            <div class="box-main" style="display:block">
+                <div class="logo1" >
+                     <img src="coding-logo-design-template-free-vector.jpg">
+                </div><br>
+                <a id="s" href="contact.html"><h1>PROGRAMMES</h1></a><br>
+                <br><p>Live as if you were to die tomorrow. Learn as if you were to live forever</p>
+            </div>
+            <div class="box-main" style="display:block">
+                <div class="logo1" >
+                    <img src="trophy-achievement-icon-vector-21011818.jpg">
+               </div><br>
+               <a id="s" href="contact.html"><h1>ACHIEVEMENTS</h1></a><br>
+                <br>
+                <p>Every achievement is a servitude. It compels us to a higher achievement</p>
+            </div>
+            <div class="box-main" style="display:block">
+                <div class="logo1" >
+                    <img src="library-location-icon_23-2147501233.jpg">
+               </div><br>
+               <a id="s" href="contact.html"><h1>PLACEMENTS</h1></a><br>
+                <br>
+                <p>Realizing what you are good at starts with finding what you're passionate</p>
+            </div>
+
+			<div class="secondHalf">
+				<h1 class="text-big" id="program">
+					
+				</h1>
+				<p class="text-small">
+					
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<footer class="background">
+		<p class="text-footer">
+			Copyright ----> All rights are reserved
+		</p>
+
+
+	</footer>
+</body>
+
+</html>
+
